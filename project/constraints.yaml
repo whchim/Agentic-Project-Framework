@@ -1,0 +1,30 @@
+performance:
+  api-response-time: "<= 200ms (99% case)"
+  qps: ">= 1000 (single node)"
+  memory-usage: "<= 512MB"
+  load-time: "<= 3s"
+
+security:
+  auth: all protected routes must be authenticated
+  sensitive-data-encryption: required
+  xss-protection: required
+  sql-injection-protection: parameterized queries only
+  rate-limit: required for sensitive endpoints
+  secrets: never commit secrets to repository
+
+technology:
+  language-version: ">= Python 3.10"
+  dependency-policy: no unmaintained packages
+  compatibility: Chrome 90+, Firefox 100+, Safari 15+
+  architecture: modular by default, microservices only when justified
+
+team:
+  code-review: minimum 1 reviewer
+  testing: unit test coverage >= 80%
+  documentation: core modules must be documented
+  commit-policy: meaningful commits only
+
+workflow:
+  locked-docs: must not be edited directly
+  large-task-isolation: worktree or dedicated branch recommended
+  validation: required before archive

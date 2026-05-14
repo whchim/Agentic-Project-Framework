@@ -1,0 +1,30 @@
+basic:
+  language: Python 3.11
+  coding-standard: PEP 8
+  version-control: Git
+  package-manager: poetry
+
+frontend:
+  framework: Vue 3
+  ui-library: Element Plus
+  build-tool: Vite
+  code-style: project convention
+
+backend:
+  framework: FastAPI
+  database: PostgreSQL 15
+  cache: Redis 7
+  orm: SQLAlchemy 2.0
+  api-doc: OpenAPI 3.0
+  auth: JWT / OAuth2
+
+devops:
+  ci-cd: GitHub Actions
+  container: Docker
+  orchestration: Kubernetes
+  monitoring: Prometheus + Grafana
+
+ai-related:
+  model: configurable
+  embedding: configurable
+  vector-db: Milvus / pgvector

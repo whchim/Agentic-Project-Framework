@@ -1,0 +1,20 @@
+project:
+  name: example-project
+  description: Agentic engineering framework based project
+  owner: team-a
+  mode: standard # lite | standard | strict
+  language: zh-CN
+  lifecycle: active
+
+working-style:
+  ai-assisted: true
+  human-review: true
+  spec-first: true
+  evidence-first: true
+  isolated-workspaces: recommended
+
+delivery:
+  branch-model: feature-branch
+  release-model: controlled
+  docs-required: true
+  validation-required: true
