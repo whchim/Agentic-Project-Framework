@@ -356,7 +356,7 @@
 
 建议优先阅读以下文件：
 
-- `AGENTS_CORE.md`
+- `AGENTS.md`
 - `docs/repository-index.md`
 - `docs/quick-start.md`
 - `docs/methodology.md`
@@ -369,7 +369,7 @@
 这套框架可以理解为：
 
 - `README.md`：入口
-- `AGENTS_CORE.md`：总宪法
+- `AGENTS.md`：总宪法
 - `project/`：项目身份
 - `rules/`：制度
 - `skills/`：动作
